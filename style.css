@@ -1,0 +1,459 @@
+*{
+    --couleur1:#C5D5EA;
+    --couleur2:#759EB8;
+    --couleur3:#7392B7;
+    --couleur4:#B3C5D7;
+    --couleur5:#D8E1E9;
+  }
+  
+  b{color:black;}
+  
+  .bg-bitch{
+    background-color:var(--couleur5);
+    width:600px;
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+  
+  .nom-bitch{
+    color:var(--couleur3);
+    font-family:impact;
+    font-size:50px;
+    position:relative;
+    z-index:2;
+    margin-bottom:-60px;
+    left:180px;
+    filter: drop-shadow(2px 2px 0px var(--couleur4));
+  }
+  
+  .img-bitch{
+    width:150px;
+    height:150px;
+    border-radius:80px;
+    border:3px solid var(--couleur2);
+    position:relative;
+    left:20px;
+    z-index:1;
+  }
+  
+  .petit-txt{
+    background-color:var(--couleur1);
+    font-family:helvetica;
+    font-size:11px;
+    text-align:justify;
+    padding:5px;
+    padding-left:35px;
+    width:380px;
+    position:relative;
+    left:149px;
+    top:-110px;
+    z-index:0;
+    color:#666;
+    border-bottom:3px solid var(--couleur2);
+  }
+  
+  .tooltip-card {
+    position: relative;
+    display: inline-block;
+    background-color:var(--couleur2);
+    font-family:helvetica;
+    font-size:12px;
+    color:#000;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    padding:5px;
+    left:315px;
+    top:-110px;
+    transition:all 1s;
+  }
+  
+  .tooltip-card .tooltiptext-card {
+    visibility: hidden;
+    text-align:left;
+    position: absolute;
+    top:-130px;
+    left:-50px;
+    z-index: 3;
+    transform:scale(0.5);
+    opacity:0%;
+    transition:all .50s;
+  }
+  
+  .tooltip-card:hover .tooltiptext-card {
+    visibility: visible;
+  transform:scale(1);
+  opacity:100%;}
+  
+  .tooltip-card:hover{
+    background-color:var(--couleur4);
+    color:#666;
+  }
+  
+  .block-trivia{
+    positon:relative;
+    margin-left:10px;
+    background-color:var(--couleur1);
+    width:200px;
+    height:170px;
+    font-family:helvetica;
+    color:#666;
+    font-size:11px;
+    text-align:justify;
+    padding:3px;
+    border:3px solid var(--couleur2);
+    border-top:none;
+    border-bottom:none;
+    margin-top:-117px;
+    overflow:auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--couleur4) var(--couleur1);
+  }
+  
+  .block-histoire{
+    positon:relative;
+    margin-left:230px;
+    margin-top:-176px;
+    background-color:var(--couleur1);
+    width:350px;
+    height:170px;
+    font-family:helvetica;
+    color:#666;
+    font-size:11px;
+    text-align:justify;
+    padding:3px;
+    border:3px solid var(--couleur2);
+    border-top:none;
+    border-bottom:none;
+    overflow:auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--couleur4) var(--couleur1);
+  }
+  
+  .titre-apercu{
+    font-family:impact;
+    color:var(--couleur3);
+    font-size:25px;
+    position:relative;
+    top:-110px;
+    left:20px;
+    filter: drop-shadow(2px 2px 0px var(--couleur4));
+  }
+  
+  .tooltip-biblio {
+    background-color:var(--couleur3);
+    position:relative;
+    font-family:helvetica;
+    font-size:20px;
+    width:167.1px;
+    text-align:center;
+    color:#fff;
+    display:inline-block;
+    margin:10.1px;
+    padding:5px;
+    transition:all 1s;
+  }
+  
+  .tooltip-biblio .tooltiptext-biblio {
+    visibility: hidden;
+    text-align:justify;
+    background-color:var(--couleur2);
+    position: absolute;
+    top:-186px;
+    width:572px;
+    height:167px;
+    left:0px;
+    font-family:helvetica;
+    font-size:11px;
+    line-height:1em;
+    padding:5px;
+    color:#fff;
+    z-index: 3;
+    transform:scale(0.5);
+    opacity:0%;
+    transition:all .50s;
+    overflow:auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--couleur4) var(--couleur1);
+  }
+  
+  .tooltip-biblio:hover .tooltiptext-biblio {
+    visibility: visible;
+  transform:scale(1);
+  opacity:100%;}
+  
+  .tooltip-biblio:hover{
+    background-color:var(--couleur4);
+    color:#666;
+  }
+  
+  .item-biblio{background-color:var(--couleur4);color:#666;padding:3px;margin:3px;}
+  
+  .separateur-bitch{
+    background-color:var(--couleur2);
+    width:550px;
+    height:2px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:40px;
+  }
+  
+  .titre-equipe-bitch{
+    color:var(--couleur3);
+    font-family:impact;
+    font-size:40px;
+    filter: drop-shadow(2px 2px 0px var(--couleur4));
+    text-align:center;
+    margin-top:-40px;
+  }
+  
+  .sprite-pokemon{
+    background-color:var(--couleur4);
+    padding:5px;
+    border-radius:60px;
+    border:2px solid var(--couleur2);
+    margin-left:10px;
+  }
+  
+  .fond-pokemon{
+    background-color:var(--couleur1);
+    padding:5px;
+    padding-left:45px;
+    font-family:helvetica;
+    font-size:11px;
+    height:80px;
+    border-bottom:2px solid var(--couleur2);
+    margin-left:-40px;
+    width:140px;
+    color:#666666;
+  }
+  
+  .surnom-pokemon{
+    color:var(--couleur2);
+    font-size:25px;
+    font-family:impact;
+    margin-top:-20px;
+  }
+  
+  .tooltip-pkm {
+    position: relative;
+    background-color:var(--couleur2);
+    font-family:helvetica;
+    font-size:12px;
+    color:#000;
+    padding:5px;
+    text-align:center;
+    margin-top:5px;
+    transition:all 1s;
+  }
+  
+  .tooltip-pkm .tooltiptext-pkm {
+    visibility: hidden;
+    text-align:left;
+    position: absolute;
+    background-color:var(--couleur4);
+    padding:5px;
+    border:1px solid var(--couleur2);
+    top:-112px;
+    left:-72px;
+    width:200px;
+    height:100px;
+    z-index: 3;
+    overflow:auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--couleur4) var(--couleur1);
+    transform:scale(0.5);
+    opacity:0%;
+    transition:all .50s;
+  }
+  
+  .tooltip-pkm:hover .tooltiptext-pkm {
+    visibility: visible;
+  transform:scale(1);
+  opacity:100%;}
+  
+  .tooltip-pkm:hover{
+    background-color:var(--couleur3);
+    color:#fff;
+  }
+  
+  .stats-pokemon{
+    background-color:var(--couleur1);
+    padding:3px;
+    text-align:center;
+    font-family:helvetica;
+    font-size:11px;
+    color:#666;
+  }
+  
+  .attaques-pokemon{
+    background-color:var(--couleur1);
+    margin-top:5px;
+    text-align:justify;
+    padding:3px;
+    color:#666;
+    font-size:11px;
+    font-family:helvetica;
+  }
+  
+  .bouton-team {
+    clear:both;
+    width:auto;
+  }
+  .bouton-team : after {
+    content:'';
+    display:table;
+    clear: both;
+  }
+  .bouton-team input[type=radio] {
+    display:none;
+  }
+  .bouton-team input:checked + label {
+    background-color:var(--couleur3);
+    color:white;
+  }
+  
+  .bouton-team label {
+    background-color: var(--couleur2);
+    padding:5px;
+    margin-top:5px;
+    font-family:helvetica;
+    font-size:14px;
+    color:#000;
+    display:inline-block;
+    left:95px;
+    width:80px;
+    text-align:center;
+    position:relative;
+  }
+  
+  .description-contenu{
+    display:none;
+    margin-top:10px;
+  }
+  
+  #charactere:checked ~ #charactere-contenu,
+  #histoire:checked ~ #histoire-contenu,
+  #physique:checked ~ #physique-contenu,
+  #infos:checked ~ #infos-contenu{display:block;}
+  
+  .titre-legendaire{
+    font-family:impact;
+    color:var(--couleur3);
+    font-size:20px;
+    filter: drop-shadow(2px 2px 0px var(--couleur4));
+    margin-left:20px;
+    margin-bottom:-10px;
+    margin-top:10px;
+  }
+  
+  .nom-legendaire{
+    z-index:1;
+    background-color:var(--couleur1);
+    width:90px;
+    padding:5px;
+    padding-bottom:60px;
+    margin-left:30px;
+    padding-top:10px;
+    text-align:center;
+    font-family:helvetica;
+    font-size:13px;
+    margin-bottom:-50px;
+  }
+  
+  .sprite-legendaire{
+    z-index:2;
+    background-color:var(--couleur4);
+    padding:10px;
+    border-radius:60px;
+    border:2px solid var(--couleur2);
+    margin-left:20px;
+  }
+  
+  .titre-box{
+    font-family:impact;
+    color:var(--couleur3);
+    font-size:20px;
+    filter: drop-shadow(2px 2px 0px var(--couleur4));
+    margin-left:145px;
+    margin-bottom:-10px;
+    margin-top:-173px;
+  }
+  
+  .fond-box{
+    z-index:1;
+    background-color:var(--couleur1);
+    width:420px;
+    padding:5px;
+    padding-top:10px;
+    text-align:center;
+    font-family:helvetica;
+    font-size:12px;
+    margin-left:150px;
+    margin-top:-10px;
+    height:100px;
+  }
+  
+  .pkm-box{display:inline-block;margin-top:0px;}
+  
+  .sprite-box{background-color:var(--couleur4);border-radius:60px;border:2px solid var(--couleur2);}
+  
+  .fond-enfance{
+    background-color:var(--couleur1);
+    margin-left:60px;
+    margin-right:60px;
+    padding-bottom:5px;
+    border-bottom:2px solid var(--couleur2);
+  }
+  
+  .sprite-enfance{
+    margin:-10px;
+  }
+  
+  .titre-enfance{
+    font-family:impact;
+    color:var(--couleur2);
+    font-size:20px;
+    filter: drop-shadow(2px 2px 0px var(--couleur4));
+    margin-bottom:-10px;
+    margin-left:50px;
+  }
+  
+  .nom-enfance{font-family:helvetica;font-size:11px;margin-left:20px;margin-right:20px;text-align:center;color:#666;}
+  
+  .tooltip-box {
+    position: relative;
+    display:inline-block;
+    transition:all 1s;
+    border-radius:60px;
+  }
+  
+  .tooltip-box .tooltiptext-box {
+    visibility: hidden;
+    text-align:left;
+    position: absolute;
+    background-color:var(--couleur4);
+    padding:5px;
+    border:1px solid var(--couleur2);
+    top:-105px;
+    left:-52px;
+    width:170px;
+    height:100px;
+    z-index: 3;
+    overflow:auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--couleur4) var(--couleur1);
+    transform:scale(0.5);
+    opacity:0%;
+    transition:all .50s;
+  }
+  
+  .tooltip-box:hover .tooltiptext-box {
+    visibility: visible;
+  transform:scale(1);
+  opacity:100%;}
+  
+  #box-team{
+    left:60px;
+    top:-50px;
+    width:200px;
+  }
