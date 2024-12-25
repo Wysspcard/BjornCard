@@ -10,9 +10,11 @@
   
   .bg-bitch{
     background-color:var(--couleur5);
-    width:600px;
+    width:596px;
     padding-top:10px;
     padding-bottom:10px;
+    border-left:var(--couleur2) 3px solid;
+    border-right:var(--couleur2) 3px solid;
   }
   
   .nom-bitch{
