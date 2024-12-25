@@ -457,3 +457,16 @@
     top:-50px;
     width:200px;
   }
+
+  .explication-enfance{
+    background-color:var(--couleur1);
+    font-family:helvetica;
+    font-size:11px;
+    text-align:justify;
+    padding:5px;
+    width:550px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5px;
+    color:#666;
+  }
