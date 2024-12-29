@@ -401,8 +401,8 @@
   
   .fond-enfance{
     background-color:var(--couleur1);
-    margin-left:60px;
-    margin-right:60px;
+    margin-left:55px;
+    margin-right:55px;
     padding-bottom:5px;
     border-bottom:2px solid var(--couleur2);
   }
