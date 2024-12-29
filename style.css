@@ -10,7 +10,7 @@
   
   .bg-bitch{
     background-color:var(--couleur5);
-    width:596px;
+    width:594px;
     padding-top:10px;
     padding-bottom:10px;
     border-left:var(--couleur2) 3px solid;
@@ -146,7 +146,7 @@
     position:relative;
     font-family:helvetica;
     font-size:20px;
-    width:167.1px;
+    width:165px;
     text-align:center;
     color:#fff;
     display:inline-block;
