@@ -74,7 +74,7 @@
     text-align:left;
     position: absolute;
     top:-130px;
-    left:-50px;
+    left:-70px;
     z-index: 3;
     transform:scale(0.5);
     opacity:0%;
@@ -529,7 +529,8 @@
     scrollbar-color: var(--couleur4) var(--couleur1);
   color:#666666;
   font-family:helvetica;
-  font-size:11.5px;
+  font-size:11px;
+  text-align:justify;
 }
 
 .nom-relation{
