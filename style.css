@@ -372,6 +372,14 @@
   #charactere:checked ~ #charactere-contenu,
   #histoire:checked ~ #histoire-contenu,
   #physique:checked ~ #physique-contenu,
+#felix:checked ~ #felix-contenu,
+#cassidy:checked ~ #cassidy-contenu,
+#kelly:checked ~ #kelly-contenu,
+#seraphine:checked ~ #seraphine-contenu,
+#oceane:checked ~ #oceane-contenu,
+#alonso:checked ~ #alonso-contenu,
+#mikoto:checked ~ #mikoto-contenu,
+#silver:checked ~ #silver-contenu,
   #infos:checked ~ #infos-contenu{display:block;}
   
   .titre-legendaire{
@@ -497,16 +505,15 @@
   }
 
   .explication-enfance{
-    background-color:var(--couleur1);
+    background-color:var(--couleur2);
     font-family:helvetica;
     font-size:11px;
     text-align:justify;
     padding:5px;
-    width:550px;
+    width:474px;
     margin-left:auto;
     margin-right:auto;
-    margin-top:5px;
-    color:#666;
+    color:#000;
   }
 
 .pnj{
@@ -518,12 +525,13 @@
 .txt-relation{
   background-color:var(--couleur1);
   padding:5px;
-  width:165px;
-  margin-left:80px;
-  margin-top:-100px;
+  width:475px;
+  margin-left:20px;
+  margin-top:0px;
   padding-left:40px;
+  padding-right:40px;
   padding-top:15px;
-  height:70px;
+  height:100px;
   overflow:auto;
     scrollbar-width: thin;
     scrollbar-color: var(--couleur4) var(--couleur1);
@@ -537,10 +545,57 @@
   color:var(--couleur3);
   font-family:helvetica;
   font-size:18px;
-  margin-top:-100px;
-  margin-left:120px;
+  margin-top:-130px;
+  margin-left:60px;
 }
 
-.bloc-relation{display:inline-block;}
+.bloc-relation{display:block;}
 
 #top-pnj{margin-top:90px;}
+
+details{
+  font-size:20px;
+  font-family:helvetica;
+  padding-left:30px;
+}
+
+.nom-pnj{
+  background-color:var(--couleur2);
+  color:var(--couleur1);
+  width:100px;
+  padding:5px;
+  text-align:center;
+  margin-left:50px;
+  margin-top:100px;
+}
+
+ .bouton-rel {
+    clear:both;
+    width:auto;
+  }
+  .bouton-rel : after {
+    content:'';
+    display:table;
+    clear: both;
+  }
+  .bouton-rel input[type=radio] {
+    display:none;
+  }
+  .bouton-rel input:checked + label {
+    opacity:100%;
+  }
+  
+  .bouton-rel label {
+    display:inline-block;
+    width:100px;
+    margin:5px;
+    margin-bottom:0px;
+    text-align:center;
+    position:relative;
+    opacity:80%;
+  }
+  
+  .description-contenu{
+    display:none;
+    margin-top:10px;
+  }
